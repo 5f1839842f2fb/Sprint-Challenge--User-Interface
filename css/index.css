@@ -71,6 +71,23 @@ p {
     margin: 0 auto;
 }
 
+header {
+    padding: 3% 0;
+}
+header nav {
+    color: black;
+    text-decoration: none;
+    padding: 1% 0;
+    padding-bottom: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+header nav a, header nav a:visited {
+    color: black;
+    text-decoration: none;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,7 +128,10 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.box a {
+    color: black;
+    text-decoration: none;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +163,32 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.top-text{
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main-section .box {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+}
+.main-section .box img, h1, p {
+    padding: 1% 0;
+}
+.learnmore-button {
+    margin: 3% 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 35%;
+    padding: 3%;
+    text-align: center;
+}
+.foot-text {
+    padding: 3%;
 }
