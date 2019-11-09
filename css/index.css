@@ -83,10 +83,11 @@ header nav {
     justify-content: space-around;
     align-items: baseline;
 }
-header nav a, a:visited {
+header nav a, header nav a:visited {
     color: black;
     text-decoration: none;
 }
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
