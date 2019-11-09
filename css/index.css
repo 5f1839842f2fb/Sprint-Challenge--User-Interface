@@ -161,3 +161,31 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.top-text{
+    padding: 2%;
+    border-bottom: 1px dashed black;
+}
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.main-section .box {
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin: 3% 0;
+}
+.main-section .box img, h1, p {
+    padding: 1% 0;
+}
+.learnmore-button {
+    margin: 3% 0;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 35%;
+    padding: 3%;
+    text-align: center;
+}
+.foot-text {
+    padding: 3%;
+}
